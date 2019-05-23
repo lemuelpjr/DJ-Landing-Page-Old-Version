@@ -1,0 +1,28 @@
+/* Imports Google font family: Ubuntu */
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+html {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+header {
+  max-width: 760px;
+  margin: auto;
+  padding: 0 25px;
+}
+
+.title {
+  color: #333;
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.text {
+  color: #333;
+  font-size: 2rem;
+  line-height: 1.5;
+}
+
+.spacing {
+  margin: 3rem 0;
+}
