@@ -1,4 +1,4 @@
-/* Imports Google font family: Ubuntu */
+/* Imports Google font family: Ubuntu (light, regular, medium, bold) */
 @import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
 
 html {
@@ -11,13 +11,13 @@ header {
   padding: 0 25px;
 }
 
-.title {
+#title {
   color: #333;
   font-size: 4rem;
-  font-weight: bold;
+  font-weight: light;
 }
 
-.text {
+#brand {
   color: #333;
   font-size: 2rem;
   line-height: 1.5;
