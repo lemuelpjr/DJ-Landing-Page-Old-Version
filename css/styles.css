@@ -5,24 +5,32 @@ html {
   font-family: 'Ubuntu', sans-serif;
 }
 
-.spacing {
-  margin: 3rem 0;
+header {
+  background-image: url(../img/hero-picture.jpg);
+  /* Full page centered background image */
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
-header {
+.flex-container {
+  display: flex;
+}
+
+#header-content {
   max-width: 760px;
   margin: auto;
   padding: 0 25px;
 }
 
 #title {
-  color: #333;
-  font-size: 4rem;
-  font-weight: light;
+  color: #ddd;
+  font-size: 6rem;
+  margin-bottom: 4rem;
 }
 
 #brand {
-  color: #333;
   font-size: 2rem;
   line-height: 1.5;
 }
@@ -40,5 +48,5 @@ header {
 #cta:hover {
   color: #f06;
   background-color: #222;
-  transition: .5s;
+  transition: .3s;
 }
