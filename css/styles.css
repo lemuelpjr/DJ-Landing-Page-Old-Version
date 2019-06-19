@@ -5,10 +5,10 @@ body {
 header {
   background-image: url(../img/hero-picture.jpg);
   /* Full page centered background image */
-  height: 100vh;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  height: 100vh;
 }
 
 #header-content {
@@ -31,7 +31,6 @@ header {
 
 #brand span {
   color: #f06;
-  font-weight: bold;
 }
 
 #cta {
@@ -40,7 +39,7 @@ header {
   font-size: 2rem;
   text-decoration: none;
   padding: 8px 36px;
-  border-radius: 20px;
+  border-radius: 10px;
 }
 
 #cta:hover {
