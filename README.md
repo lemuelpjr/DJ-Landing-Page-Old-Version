@@ -1,3 +1,3 @@
-# Big Project 1
+# Arianna Müller's landing page
 
-This is a music related website to be used soon on my portfolio.
+A landing web page for a DJ persona called Arianna Müller.
