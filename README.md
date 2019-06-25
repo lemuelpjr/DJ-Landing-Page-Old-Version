@@ -2,4 +2,4 @@
 
 A landing web page for a DJ persona called Arianna Müller.
 
-It uses a design based on minimalism.
+You can see the website online here: www.lemuelpereira.com/arianna-muller
