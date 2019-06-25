@@ -47,3 +47,20 @@ header {
   background-color: #222;
   transition: .3s;
 }
+
+nav {
+  position: relative;
+  top: 15px;
+  right: 20px;
+}
+
+nav a {
+  color: #ddd;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+nav a:hover {
+  color: #f06;
+}
