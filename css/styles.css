@@ -1,3 +1,9 @@
+/* Colors for reference:
+#f09
+#60f
+#90f
+#d4d4d4 */
+
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -29,7 +35,7 @@ nav {
 }
 
 nav a {
-  color: #ddd;
+  color: #d4d4d4;
   font-size: 2rem;
   text-decoration: none;
   padding-right: 25px;
@@ -49,13 +55,13 @@ nav a:hover {
 }
 
 #title {
-  color: #ddd;
+  color: #d4d4d4;
   font-size: 6rem;
   font-weight: 300;
 }
 
 #brand {
-  color: #ddd;
+  color: #d4d4d4;
   font-size: 2rem;
   margin: 1rem 0 4rem 0;
 }
