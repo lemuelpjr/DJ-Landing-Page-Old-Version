@@ -25,24 +25,9 @@ header {
   position: relative;
 }
 
-/*
-### NAVIGATION MENU ###
-*/
+/* Hides navigation menu for small screens */
 nav {
-  position: absolute;
-  top: 20px;
-  right: 0;
-}
-
-nav a {
-  color: #d4d4d4;
-  font-size: 2rem;
-  text-decoration: none;
-  padding-right: 25px;
-}
-
-nav a:hover {
-  color: #f09;
+  display: none;
 }
 
 /*
@@ -88,8 +73,22 @@ nav a:hover {
 /*
 ### MEDIA QUERIES ###
 */
-@media only screen and (max-width: 460px) {
+@media only screen and (min-width: 600px) {
   nav {
-    display: none;
-  }
+  display: block;
+  position: absolute;
+  top: 20px;
+  right: 0;
+}
+
+nav a {
+  color: #d4d4d4;
+  font-size: 2rem;
+  text-decoration: none;
+  padding-right: 25px;
+}
+
+nav a:hover {
+  color: #f09;
+}
 }
