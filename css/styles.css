@@ -21,7 +21,7 @@ header {
 .container {
   max-width: 960px;
   margin: auto;
-  padding: 0 20px;
+  padding: 0 15px;
   position: relative;
 }
 
@@ -68,6 +68,29 @@ nav {
   color: #f09;
   background-color: #222;
   transition: .3s;
+}
+
+/*
+### ABOUT ME CONTENT ###
+*/
+#about {
+  background-color: #60f;
+}
+
+#about h2 {
+  background-color: #333;
+  color: #f09;
+  font-size: 4rem;
+  text-align: right;
+}
+
+#about img{
+  width: 180px;
+}
+
+#about p {
+  color: #d4d4d4;
+  font-size: 1.6rem;
 }
 
 /*
