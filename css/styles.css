@@ -78,10 +78,10 @@ nav {
 }
 
 #about h2 {
-  background-color: #333;
   color: #f09;
   font-size: 4rem;
   text-align: right;
+  padding-top: 6rem;
 }
 
 #about img{
