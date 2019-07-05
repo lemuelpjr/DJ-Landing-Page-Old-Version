@@ -94,6 +94,33 @@ nav {
 }
 
 /*
+### CONTACT CONTENT ###
+*/
+#contact {
+  background-color: #222;
+  color: #d4d4d4;
+}
+
+#contact h2 {
+  font-size: 4rem;
+  text-align: right;
+}
+
+#contact a {
+  color: #d4d4d4;
+  font-size: 1.8rem;
+  display: block;
+  text-decoration: none;
+  padding: 5px 0;
+}
+
+#contact p {
+  font-size: 1.4rem;
+  text-align: right;
+  padding: 10px 0;
+}
+
+/*
 ### MEDIA QUERIES ###
 */
 @media only screen and (min-width: 600px) {
