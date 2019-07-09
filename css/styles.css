@@ -19,7 +19,7 @@ header {
 
 /* Holds the content into a comfortable width for reading */
 .container {
-  max-width: 960px;
+  max-width: 800px;
   margin: auto;
   padding: 0 15px;
   position: relative;
