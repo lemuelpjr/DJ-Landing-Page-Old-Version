@@ -137,6 +137,9 @@ nav {
 ### MEDIA QUERIES ###
 */
 @media only screen and (min-width: 600px) {
+  /*
+### SHOWCASE CONTENT ###
+*/
   nav {
   display: block;
   position: absolute;
@@ -153,5 +156,13 @@ nav a {
 
 nav a:hover {
   color: #f09;
+}
+
+#title {
+  font-size: 8.8rem;
+}
+
+#brand {
+  font-size: 3.4rem;
 }
 }
