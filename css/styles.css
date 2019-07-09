@@ -123,6 +123,10 @@ nav {
   text-decoration: none;
 }
 
+#contact a:hover {
+  color: #f09;
+}
+
 #contact p {
   font-size: 1.4rem;
   text-align: right;
