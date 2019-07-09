@@ -43,12 +43,13 @@ nav {
   color: #d4d4d4;
   font-size: 6rem;
   font-weight: 300;
+  margin-top: 6rem;
 }
 
 #brand {
   color: #d4d4d4;
   font-size: 2rem;
-  margin: 1rem 0 4rem 0;
+  margin: 1rem 0 6rem 0;
 }
 
 #brand span {
