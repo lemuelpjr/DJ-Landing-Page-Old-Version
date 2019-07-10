@@ -188,4 +188,8 @@ nav {
     display: block;
     padding: 10px 0;
   }
+
+  #icon-bar a:hover {
+    color: #f09;
+  }
 }
