@@ -191,6 +191,10 @@ nav,
     /*
   ### SHOWCASE CONTENT STYLES ###
   */
+  #nav-icon {
+    display: none;
+  }
+
   nav {
     display: block;
     position: absolute;
