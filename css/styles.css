@@ -25,14 +25,42 @@ header {
   position: relative;
 }
 
-/* Hides navigation menu for small screens */
+/* Hides navigation menu and social media icons for small screens */
 nav,
 #icon-bar {
   display: none;
 }
 
 /*
-### SHOWCASE CONTENT ###
+### NAV ICON STYLES ###
+*/
+#nav-icon {
+  position: absolute;
+  top: 40px;
+  right: 25px;
+}
+
+#nav-icon div {
+  background-color: #f09;
+  height: 0.4rem;
+  margin: 0.8rem 0;
+  border-radius: 15px;
+}
+
+#top-bar {
+  width: 4rem;
+}
+
+#middle-bar {
+  width: 2rem;
+}
+
+#bottom-bar {
+  width: 3rem;
+}
+
+/*
+### SHOWCASE CONTENT STYLES ###
 */
 #showcase {
   height: 100vh;
@@ -73,7 +101,7 @@ nav,
 }
 
 /*
-### ABOUT ME CONTENT ###
+### ABOUT ME STYLES ###
 */
 #about {
   background-color: #60f;
@@ -97,7 +125,7 @@ nav,
 }
 
 /*
-### CONTACT CONTENT ###
+### CONTACT STYLES ###
 */
 #contact {
   background-color: #222;
@@ -140,7 +168,7 @@ nav,
 */
 @media only screen and (min-width: 600px) {
     /*
-  ### SHOWCASE CONTENT ###
+  ### SHOWCASE CONTENT STYLES ###
   */
   nav {
     display: block;
