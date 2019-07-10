@@ -45,7 +45,7 @@ nav,
   height: 0.4rem;
   margin: 0.8rem 0;
   border-radius: 15px;
-  transition: 0.4s;
+  transition: 0.2s;
 }
 
 #top-bar {
@@ -64,8 +64,8 @@ nav,
 
 /* Rotate first bar */
 .change #top-bar {
-  -webkit-transform: rotate(-48deg) translate(-10px, 7px) ;
-  transform: rotate(-48deg) translate(-10px, 7px) ;
+  -webkit-transform: translateY(12px) rotate(45deg);
+  transform: translateY(12px) rotate(45deg);
 }
 
 /* Fade out the second bar */
@@ -75,8 +75,8 @@ nav,
 
 /* Rotate last bar */
 .change #bottom-bar {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+  -webkit-transform: translateY(-12px) rotate(-45deg);
+  transform: translateY(-12px) rotate(-45deg);
   width: 4rem;
 }
 
