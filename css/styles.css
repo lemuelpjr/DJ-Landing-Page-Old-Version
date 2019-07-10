@@ -4,6 +4,9 @@
 #90f
 #d4d4d4 */
 
+/*
+### GLOBAL STYLES ###
+*/
 body {
   font-family: 'Ubuntu', sans-serif;
 }
@@ -23,6 +26,11 @@ header {
   margin: auto;
   padding: 0 15px;
   position: relative;
+}
+
+.section-header {
+  font-size: 4rem;
+  padding-top: 6rem;
 }
 
 /* Hides navigation menu and social media icons for small screens */
@@ -171,9 +179,7 @@ nav,
 
 #about h2 {
   color: #f09;
-  font-size: 4rem;
   text-align: right;
-  padding-top: 6rem;
 }
 
 #about img{
@@ -197,9 +203,7 @@ nav,
 }
 
 #contact h2 {
-  font-size: 4rem;
   text-align: right;
-  padding-top: 6rem;
 }
 
 #contact ul {
