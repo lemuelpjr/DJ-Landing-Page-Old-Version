@@ -53,10 +53,12 @@ nav,
 
 #middle-bar {
   width: 2rem;
+  transform: translateX(2rem);
 }
 
 #bottom-bar {
   width: 3rem;
+  transform: translateX(1rem);
 }
 
 /*
