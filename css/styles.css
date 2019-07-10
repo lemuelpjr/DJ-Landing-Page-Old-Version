@@ -26,7 +26,8 @@ header {
 }
 
 /* Hides navigation menu for small screens */
-nav {
+nav,
+#icon-bar {
   display: none;
 }
 
@@ -177,8 +178,9 @@ nav {
   }
 
   #icon-bar {
+    display: block;
     position: absolute;
-    top: 35%;
+    top: 34%;
     right: 30px;
   }
 
