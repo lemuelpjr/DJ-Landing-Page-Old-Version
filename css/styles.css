@@ -182,7 +182,9 @@ nav,
 #about p {
   color: #d4d4d4;
   font-size: 1.6rem;
-  padding: 4rem 0 6rem 0;
+  letter-spacing: 0.4px;
+  line-height: 1.4;
+  padding: 6rem 0 8rem 0;
 }
 
 /*
@@ -229,7 +231,7 @@ nav,
 */
 @media only screen and (min-width: 600px) {
     /*
-  ### SHOWCASE CONTENT STYLES ###
+  ### NAVIGATION MENU STYLES ###
   */
   #nav-icon {
     display: none;
@@ -258,6 +260,9 @@ nav,
     border-bottom: solid 4px #f09;
   }
 
+  /*
+  ### SHOWCASE CONTENT STYLES ###
+  */
   #title {
     font-size: 7.6rem;
   }
@@ -270,6 +275,9 @@ nav,
     font-size: 2.2rem;
   }
 
+  /*
+  ### SOCIAL MEDIA ICONS STYLES ###
+  */
   #icon-bar {
     display: block;
     position: absolute;
@@ -286,5 +294,18 @@ nav,
 
   #icon-bar a:hover {
     color: #f09;
+  }
+
+  /*
+  ### ABOUT ME STYLES ###
+  */
+  #about {
+    text-align: center;
+  }
+
+  #about p {
+    text-align: left;
+    max-width: 600px;
+    margin: auto;
   }
 }
