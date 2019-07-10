@@ -29,6 +29,7 @@ header {
 nav,
 #icon-bar {
   display: none;
+  z-index: 2;
 }
 
 /*
@@ -38,6 +39,7 @@ nav,
   position: absolute;
   top: 40px;
   right: 25px;
+  z-index: 2;
 }
 
 #nav-icon div {
@@ -63,24 +65,26 @@ nav,
 }
 
 /* Rotate first bar */
-.change #top-bar {
+.change-nav-icon #top-bar {
+  background-color: #222;
   -webkit-transform: translateY(12px) rotate(45deg);
   transform: translateY(12px) rotate(45deg);
 }
 
 /* Fade out the second bar */
-.change #middle-bar {
+.change-nav-icon #middle-bar {
   opacity: 0;
 }
 
 /* Rotate last bar */
-.change #bottom-bar {
+.change-nav-icon #bottom-bar {
+  background-color: #222;
   -webkit-transform: translateY(-12px) rotate(-45deg);
   transform: translateY(-12px) rotate(-45deg);
   width: 4rem;
 }
 
-/* Toggles menu when nav icon is clicked */
+/* Toggle menu when nav icon is clicked */
 .toggle-menu {
   text-align: right;
   display: block;
@@ -90,11 +94,30 @@ nav,
 }
 
 .toggle-menu a {
-  color: #d4d4d4;
-  font-size: 1.8rem;
+  color: #222;
+  font-size: 2rem;
   text-decoration: none;
   display: block;
   margin: 2rem 0;
+}
+
+/* Toggle menu background when nav icon is clicked */
+.menu-bg {
+  height: 0;
+  width: 0;
+  top: 0;
+  right: 0;
+  position: absolute;
+  border-radius: 50%;
+  transform: translate(50%, -5%);
+  transition: 0.2s;
+}
+
+.change-bg {
+  background-color: #f09;
+  height: 450px;
+  width: 400px;
+  z-index: 1;
 }
 
 /*
