@@ -166,6 +166,7 @@ nav,
 */
 #about {
   background-color: #60f;
+  border-radius: 0 0 145px 0;
 }
 
 #about h2 {
