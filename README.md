@@ -1,7 +1,7 @@
 ﻿# Old version of a DJ landing page project
 
-This is an old version of a landing web page for a DJ persona called Arianna Müller.
+This is an old version of a landing web page for a DJ and music producer persona called Arianna Müller.
 
-I decided to change the design but I kept this old version for reference.
+I decided to change the design but I kept this old version for reference. The new design implementation can be found at https://github.com/lemuelpjr/DjAriannaMuller
 
-You can see the updated website online here: www.lemuelpereira.com/arianna-muller
+The updated website can be found online at www.lemuelpereira.com/projects/arianna-muller
